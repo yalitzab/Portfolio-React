@@ -3,51 +3,32 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
   const {
-    categories = [],
     setCurrentCategory,
-    contactSelected,
     currentCategory,
-    setContactSelected,
+    categories,
   } = props;
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
 
   return (
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+          <span role="img" aria-label="camera"> </span> Yalitza
         </a>
       </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+      <nav style={{float: "right"}}>
+        <ul className="d-flex flex-row">
+          <li className={`mx-2 ${currentCategory.name==="about" && 'navActive'}`} onClick={()=> setCurrentCategory(categories[0])}>
+            <a data-testid="about">
               About me
             </a>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className={`mx-2 ${currentCategory.name==="contact" && 'navActive'}`} onClick={()=> setCurrentCategory(categories[1])}>
+            <span>Contact</span>
           </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
+          <li className={`mx-2 ${currentCategory.name==="portfolio" && 'navActive'}`}  onClick={()=> setCurrentCategory(categories[2])}>
+            <span >Portfolio</span>
+          </li>
+          
         </ul>
       </nav>
     </header>

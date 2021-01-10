@@ -3,35 +3,33 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import projects from './db/projects.json';
 
 function App() {
+
+  const [cards, setCards] = useState(projects);
   const [categories] = useState([
-  
-    { name: 'portfolio', description: 'Projects I have worked on' },
+    { name: 'about', description: 'About Me', component: <About/>},
+    { name: 'contact', description: 'contact me', component: <ContactForm/>},
+    { name: 'portfolio', description: 'Projects I have worked on', component: <Portfolio cards={cards} />},
+    
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  const [contactSelected, setContactSelected] = useState(false);
-
   return (
     <div>
       <Nav
-        categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+        categories={categories}
       ></Nav>
       <main>
-        {!contactSelected ? (
           <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
+            {currentCategory.component}
           </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+
+        <footer></footer>
       </main>
     </div>
   );

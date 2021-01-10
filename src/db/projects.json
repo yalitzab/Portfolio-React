@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Run Buddy",
+        "imageUrl": "/assets/large/projects/01.jpg",
+        "deployLink": "https://yalitzab.github.io/yalitzab.github.io-run-buddy/",
+        "gitHubRepo": "https://github.com/yalitzab/yalitzab.github.io-run-buddy"
+    },
+    {
+        "title": "Bossy Bartender",
+        "imageUrl": "/assets/large/projects/02.PNG",
+        "deployLink": "http://bossy-bartender.herokuapp.com/",
+        "gitHubRepo": "https://github.com/yalitzab/bossy-bartender"
+    },
+    {
+        "title": "Air Hiker",
+        "imageUrl": "/assets/large/projects/03.PNG",
+        "deployLink": "https://yalitzab.github.io/air-hiker/",
+        "gitHubRepo": "https://github.com/yalitzab/air-hiker"
+    },
+    {
+        "title": "Portfolio - HTML",
+        "imageUrl": "/assets/large/projects/04.PNG",
+        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
+        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+    },
+    {
+        "title": "Portfolio - HTML",
+        "imageUrl": "/assets/large/projects/04.PNG",
+        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
+        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+    },
+    {
+        "title": "Portfolio - HTML",
+        "imageUrl": "/assets/large/projects/04.PNG",
+        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
+        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+    },
+    {
+        "title": "Portfolio - HTML",
+        "imageUrl": "/assets/large/projects/04.PNG",
+        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
+        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+    },
+    {
+        "title": "Portfolio - HTML",
+        "imageUrl": "/assets/large/projects/04.PNG",
+        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
+        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+    }
+]
