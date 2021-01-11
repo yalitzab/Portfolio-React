@@ -7,13 +7,11 @@ function About() {
       <img src={"/assets/cover/cover-image.jpg"} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+        My desired roles are Full-stack web development, Back-end web development, or Freelance. 
+        Coming from the workforce solutions industry, I have found web development as new talent 
+        and have passion for creativity in HTML, JavaScript to develop fully functional complex code. 
+        I have a certificate in Full-Stack Web development from UCLA. The intense robust but rewarding bootcamp 
+        program prepared me to develop web applications from the Front-end to the Back-end to provide solutions to businesses and clients. 
         </p>
       </div>
     </section>

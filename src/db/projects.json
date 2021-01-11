@@ -18,10 +18,10 @@
         "gitHubRepo": "https://github.com/yalitzab/air-hiker"
     },
     {
-        "title": "Portfolio - HTML",
-        "imageUrl": "/assets/large/projects/04.PNG",
-        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
-        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+        "title": "Budget Tracker",
+        "imageUrl": "/assets/large/projects/budget.PNG",
+        "deployLink": "https://the-budget-tracker-pwa.herokuapp.com/",
+        "gitHubRepo": "https://github.com/yalitzab/Budget-Tracker-PWA"
     },
     {
         "title": "Portfolio - HTML",
@@ -30,21 +30,21 @@
         "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
     },
     {
-        "title": "Portfolio - HTML",
-        "imageUrl": "/assets/large/projects/04.PNG",
-        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
-        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+        "title": "Note Taker",
+        "imageUrl": "/assets/large/projects/notetaker.PNG",
+        "deployLink": "https://quiet-hamlet-59341.herokuapp.com/",
+        "gitHubRepo": "https://github.com/yalitzab/Note-Taker"
     },
     {
-        "title": "Portfolio - HTML",
-        "imageUrl": "/assets/large/projects/04.PNG",
-        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
-        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+        "title": "ReadMe Generator",
+        "imageUrl": "/assets/large/projects/readmegen.PNG",
+        "deployLink": "https://github.com/yalitzab/Professional-README-Generator",
+        "gitHubRepo": "https://github.com/yalitzab/Professional-README-Generator"
     },
     {
-        "title": "Portfolio - HTML",
-        "imageUrl": "/assets/large/projects/04.PNG",
-        "deployLink": "https://yalitzab.github.io/yalitzasportfolio/",
-        "gitHubRepo": "https://github.com/yalitzab/yalitzasportfolio"
+        "title": "Daily Work Task",
+        "imageUrl": "/assets/large/projects/dailynote.PNG",
+        "deployLink": "https://yalitzab.github.io/daily-work-task/",
+        "gitHubRepo": "https://github.com/yalitzab/daily-work-task"
     }
 ]

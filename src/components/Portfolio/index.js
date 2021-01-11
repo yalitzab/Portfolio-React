@@ -12,7 +12,6 @@ function Portfolio(props) {
               <img src={card.imageUrl} className="card-img-top w-100  h-80" alt="..." />
                <h3 class="text-justify">{card.title}</h3>
               <a class="btn btn-primary ml-5  mt-3" href={card.deployLink} role="button">Deployed</a>
-
               <a class="btn btn-primary ml-5 mt-3" href={card.gitHubLink} role="button">GitHub</a>
               
           </div>
