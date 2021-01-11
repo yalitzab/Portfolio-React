@@ -15,6 +15,11 @@ function Footer() {
                     <img src="./assets/icons/github.png" width="30" height="30"></img>
                     </a>
                 </div>
+                <div>
+                    <a class="LI-simple-link" href='https://stackoverflow.com/users/13843781/yalitza'>
+                    <img src="./assets/icons/stack.png" width="30" height="30"></img>
+                    </a>
+                </div>
             </div>
         </footer>
     );
