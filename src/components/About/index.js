@@ -1,11 +1,11 @@
 import React from 'react';
-import coverImage from '../../assets/cover/cover-image.jpg';
+import coverimage from '../../assets/cover/coverimage.jpg';
 
 function About() {
   return (
     <section className="my-5">
       <h1 id="about">About Me</h1>
-      <img src={"/assets/cover/cover-image.jpg"} className="my-2" style={{ width: "100%" }} alt="cover" />
+      <img src={coverimage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
         My desired roles are Full-stack web development, Back-end web development, or Freelance. 
