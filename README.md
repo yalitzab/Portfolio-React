@@ -2,12 +2,9 @@
 
 ## Description
 
-This portfolio was developmed by using React.js. 
+This portfolio was developed by using React.js. 
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Portfolio link](https://github.com/yalitzab/Portfolio-React.git)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
