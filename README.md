@@ -6,5 +6,5 @@ This portfolio was developed by using React.js.
 
 ### Deployment
 
-[Portfolio link](https://github.com/yalitzab/Portfolio-React.git)
+[Portfolio link](https://yalitzab.github.io/Portfolio-React/)
 
