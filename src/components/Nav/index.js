@@ -11,7 +11,7 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
+        <a data-testid="link" href="https://yalitzab.github.io/Portfolio-React/">
            Yalitza
         </a>
       </h2>
@@ -27,6 +27,9 @@ function Nav(props) {
           </li>
           <li className={`mx-2 ${currentCategory.name==="portfolio" && 'navActive'}`}  onClick={()=> setCurrentCategory(categories[2])}>
             <span >Portfolio</span>
+          </li>
+          <li className={`mx-2 ${currentCategory.name==="resume" && 'navActive'}`}  onClick={()=> setCurrentCategory(categories[3])}>
+            <span >Resume</span>
           </li>
           
         </ul>

@@ -5,6 +5,8 @@ import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import projects from './db/projects.json';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
+
 
 function App() {
 
@@ -13,6 +15,9 @@ function App() {
     { name: 'about', description: 'About Me', component: <About/>},
     { name: 'contact', description: 'contact me', component: <ContactForm/>},
     { name: 'portfolio', description: 'Projects I have worked on', component: <Portfolio cards={cards} />},
+    {
+      name: "resume", description: 'Download my resume', component: <Resume/>
+    }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

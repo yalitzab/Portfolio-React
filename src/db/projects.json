@@ -46,5 +46,11 @@
         "imageUrl": "/assets/large/projects/dailynote.PNG",
         "deployLink": "https://yalitzab.github.io/daily-work-task/",
         "gitHubRepo": "https://github.com/yalitzab/daily-work-task"
+    },
+    {
+        "title": "KETOgether",
+        "imageUrl": "/assets/large/projects/ketogether.PNG",
+        "deployLink": "https://ketogether.herokuapp.com/",
+        "gitHubRepo": "https://github.com/yalitzab/ketogether"
     }
 ]
