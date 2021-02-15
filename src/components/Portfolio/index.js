@@ -1,5 +1,5 @@
 import React from 'react';
-import imageUrl from '../../../public/assets/large/projects/';
+// import imageUrl from '../../../public/assets/large/projects/';
 
 function Portfolio(props) {
   const { cards } = props;
