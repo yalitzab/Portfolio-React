@@ -3,9 +3,10 @@ import React from 'react';
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about">About Me</h1>
-      <img src={process.env.PUBLIC_URL + '/assets/cover/coverimage.jpg'} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
+        <div className="profile-img my-5">
+        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
+        </div>
         <p>
         My desired roles are Full-stack web development, Back-end web development, or Freelance. 
         Coming from the workforce solutions industry, I have found web development as new talent 

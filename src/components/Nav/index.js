@@ -3,38 +3,34 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
   const {
+    pages = [],
     setCurrentCategory,
     currentCategory,
-    categories,
   } = props;
 
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentPage.name);
+  }, [currentPage]);
+
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="https://yalitzab.github.io/Portfolio-React/">
-           Yalitza
-        </a>
-      </h2>
-      <nav style={{float: "right"}}>
-        <ul className="d-flex flex-row">
-          <li className={`mx-2 ${currentCategory.name==="about" && 'navActive'}`} onClick={()=> setCurrentCategory(categories[0])}>
-            <a data-testid="about">
-              About me
-            </a>
-          </li>
-          <li className={`mx-2 ${currentCategory.name==="contact" && 'navActive'}`} onClick={()=> setCurrentCategory(categories[1])}>
-            <span>Contact</span>
-          </li>
-          <li className={`mx-2 ${currentCategory.name==="portfolio" && 'navActive'}`}  onClick={()=> setCurrentCategory(categories[2])}>
-            <span >Portfolio</span>
-          </li>
-          <li className={`mx-2 ${currentCategory.name==="resume" && 'navActive'}`}  onClick={()=> setCurrentCategory(categories[3])}>
-            <span >Resume</span>
-          </li>
-          
+    <nav>
+        <ul className="flex-row">
+          {pages.map((Page) => (
+            <li
+              className={`mx-5 ${
+                currentPage.name === Page.name && 'navActive'
+                }`}
+              key={Page.name}
+            >
+              <span
+                onClick={() => setCurrentPage(Page)}
+              >
+                {capitalizeFirstLetter(Page.name)}
+              </span>
+            </li>
+          ))}
         </ul>
       </nav>
-    </header>
   );
 }
 

@@ -1,40 +1,36 @@
-import React, { useState } from 'react';
-import Nav from './components/Nav';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import ContactForm from './components/Contact';
-import projects from './db/projects.json';
-import Footer from './components/Footer';
-import Resume from './components/Resume';
-
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Page from "./components/Page";
+import Footer from "./components/Footer";
 
 function App() {
-
-  const [cards, setCards] = useState(projects);
-  const [categories] = useState([
-    { name: 'about', description: 'About Me', component: <About/>},
-    { name: 'contact', description: 'contact me', component: <ContactForm/>},
-    { name: 'portfolio', description: 'Projects I have worked on', component: <Portfolio cards={cards} />},
+  const [pages] = useState([
     {
-      name: "resume", description: 'Download my resume', component: <Resume/>
+      name: "about me"
+    },
+    { name: "portfolio" },
+    { name: "contact" },
+    {
+      name: "resume"
     }
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <div>
-      <Nav
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        categories={categories}
-      ></Nav>
+      <Header>
+        <Nav
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        ></Nav>
+      </Header>
       <main>
-          <>
-            {currentCategory.component}
-          </>
-        <Footer></Footer>
+        <Page currentPage={currentPage}></Page>
       </main>
+      <Footer />
     </div>
   );
 }
