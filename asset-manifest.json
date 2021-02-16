@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.6a8b1f86.chunk.css",
-    "main.js": "/Portfolio-React/static/js/main.69e84d0f.chunk.js",
-    "main.js.map": "/Portfolio-React/static/js/main.69e84d0f.chunk.js.map",
-    "runtime-main.js": "/Portfolio-React/static/js/runtime-main.394f355e.js",
-    "runtime-main.js.map": "/Portfolio-React/static/js/runtime-main.394f355e.js.map",
-    "static/js/2.61c4b0fc.chunk.js": "/Portfolio-React/static/js/2.61c4b0fc.chunk.js",
-    "static/js/2.61c4b0fc.chunk.js.map": "/Portfolio-React/static/js/2.61c4b0fc.chunk.js.map",
-    "index.html": "/Portfolio-React/index.html",
-    "static/css/main.6a8b1f86.chunk.css.map": "/Portfolio-React/static/css/main.6a8b1f86.chunk.css.map",
-    "static/js/2.61c4b0fc.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.61c4b0fc.chunk.js.LICENSE.txt"
+    "main.css": "/yalitzab/static/css/main.6a8b1f86.chunk.css",
+    "main.js": "/yalitzab/static/js/main.dfaad12d.chunk.js",
+    "main.js.map": "/yalitzab/static/js/main.dfaad12d.chunk.js.map",
+    "runtime-main.js": "/yalitzab/static/js/runtime-main.6b65344e.js",
+    "runtime-main.js.map": "/yalitzab/static/js/runtime-main.6b65344e.js.map",
+    "static/js/2.e138112e.chunk.js": "/yalitzab/static/js/2.e138112e.chunk.js",
+    "static/js/2.e138112e.chunk.js.map": "/yalitzab/static/js/2.e138112e.chunk.js.map",
+    "index.html": "/yalitzab/index.html",
+    "static/css/main.6a8b1f86.chunk.css.map": "/yalitzab/static/css/main.6a8b1f86.chunk.css.map",
+    "static/js/2.e138112e.chunk.js.LICENSE.txt": "/yalitzab/static/js/2.e138112e.chunk.js.LICENSE.txt",
+    "static/media/air-hiker.PNG": "/yalitzab/static/media/air-hiker.86d147d7.PNG",
+    "static/media/bossy-bartender.PNG": "/yalitzab/static/media/bossy-bartender.8636348c.PNG",
+    "static/media/budget-tracker.PNG": "/yalitzab/static/media/budget-tracker.4312d5c6.PNG",
+    "static/media/coverimage.808b3af8.jpg": "/yalitzab/static/media/coverimage.808b3af8.jpg",
+    "static/media/daily-note.PNG": "/yalitzab/static/media/daily-note.2b0d92bc.PNG",
+    "static/media/ke-together.PNG": "/yalitzab/static/media/ke-together.e0471748.PNG",
+    "static/media/note-taker.PNG": "/yalitzab/static/media/note-taker.23a93ba9.PNG",
+    "static/media/portfolio-css.PNG": "/yalitzab/static/media/portfolio-css.1e51ec2b.PNG",
+    "static/media/readme-gen.PNG": "/yalitzab/static/media/readme-gen.9f9ec902.PNG",
+    "static/media/run-buddy.PNG": "/yalitzab/static/media/run-buddy.4340722c.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.394f355e.js",
-    "static/js/2.61c4b0fc.chunk.js",
+    "static/js/runtime-main.6b65344e.js",
+    "static/js/2.e138112e.chunk.js",
     "static/css/main.6a8b1f86.chunk.css",
-    "static/js/main.69e84d0f.chunk.js"
+    "static/js/main.dfaad12d.chunk.js"
   ]
 }
