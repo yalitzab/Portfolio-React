@@ -4,8 +4,8 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 function Nav(props) {
   const {
     pages = [],
-    setCurrentCategory,
-    currentCategory,
+    setCurrentPage,
+    currentPage,
   } = props;
 
   useEffect(() => {

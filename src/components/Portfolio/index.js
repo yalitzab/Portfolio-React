@@ -5,58 +5,58 @@ function Portfolio(props) {
 
   const [projects] = useState([
     {
-        name: "Run Buddy",
+        name: "run-buddy",
         description: 'HTML/CSS',
-        deployLink: "https://yalitzab.github.io/yalitzab.github.io-run-buddy/",
-        gitHubRepo: "https://github.com/yalitzab/yalitzab.github.io-run-buddy"
+        link: "https://yalitzab.github.io/yalitzab.github.io-run-buddy/",
+        repo: "https://github.com/yalitzab/yalitzab.github.io-run-buddy"
     },
     {
-        name: "Bossy Bartender",
+        name: "bossy-bartender",
         description: 'HTML/CSS',
-        deployLink: "http://bossy-bartender.herokuapp.com/",
-        gitHubRepo: "https://github.com/yalitzab/bossy-bartender"
+        link: "http://bossy-bartender.herokuapp.com/",
+        repo: "https://github.com/yalitzab/bossy-bartender"
     },
     {
-        name: "Air Hiker",
+        name: "air-hiker",
         description: 'HTML/CSS',
-        deployLink: "https://yalitzab.github.io/air-hiker/",
-        gitHubRepo: "https://github.com/yalitzab/air-hiker"
+        link: "https://yalitzab.github.io/air-hiker/",
+        repo: "https://github.com/yalitzab/air-hiker"
     },
     {
-        name: "Budget Tracker",
+        name: "budget-tracker",
         description: 'PWA/Node.js',
-        deployLink: "https://the-budget-tracker-pwa.herokuapp.com/",
-        gitHubRepo: "https://github.com/yalitzab/Budget-Tracker-PWA"
+        link: "https://the-budget-tracker-pwa.herokuapp.com/",
+        repo: "https://github.com/yalitzab/Budget-Tracker-PWA"
     },
     {
-        name: "Portfolio - HTML",
+        name: "portfolio-css",
         description: 'HTML/CSS',
-        deployLink: "https://yalitzab.github.io/yalitzasportfolio/",
-        gitHubRepo: "https://github.com/yalitzab/yalitzasportfolio"
+        link: "https://yalitzab.github.io/yalitzasportfolio/",
+        repo: "https://github.com/yalitzab/yalitzasportfolio"
     },
     {
-        name: "Note Taker",
+        name: "note-taker",
         description: 'HTML/CSS/JavaScript',
-        deployLink: "https://quiet-hamlet-59341.herokuapp.com/",
-        gitHubRepo: "https://github.com/yalitzab/Note-Taker"
+        link: "https://quiet-hamlet-59341.herokuapp.com/",
+        repo: "https://github.com/yalitzab/Note-Taker"
     },
     {
-        name: "ReadMe Generator",
+        name: "readme-gen",
         description: 'Node.js',
-        deployLink: "https://github.com/yalitzab/Professional-README-Generator",
-        gitHubRepo: "https://github.com/yalitzab/Professional-README-Generator"
+        link: "https://github.com/yalitzab/Professional-README-Generator",
+        repo: "https://github.com/yalitzab/Professional-README-Generator"
     },
     {
-        name: "Daily Work Task",
+        name: "daily-note",
         description: 'HTML/Javascript',
-        deployLink: "https://yalitzab.github.io/daily-work-task/",
-        gitHubRepo: "https://github.com/yalitzab/daily-work-task"
+        link: "https://yalitzab.github.io/daily-work-task/",
+        repo: "https://github.com/yalitzab/daily-work-task"
     },
     {
-        name: "KETOgether",
+        name: "ke-together",
         description: 'MERN Stack',
-        deployLink: "https://ketogether.herokuapp.com/",
-        gitHubRepo: "https://github.com/yalitzab/ketogether"
+        link: "https://ketogether.herokuapp.com/",
+        repo: "https://github.com/yalitzab/ketogether"
     }
 ])
 
@@ -82,8 +82,8 @@ function Portfolio(props) {
           
     //           <img src={process.env.PUBLIC_URL + card.imageUrl} className="card-img-top w-100  h-80" alt="..." />
     //           <h3 class="text-justify">{card.name}</h3>
-    //           <a class="btn btn-primary ml-5 mt-3" href={card.deployLink} role="button">Deployed</a>
-    //           <a class="btn btn-primary ml-5 mt-3" href={card.gitHubRepo} role="button">GitHub</a>
+    //           <a class="btn btn-primary ml-5 mt-3" href={card.link} role="button">Deployed</a>
+    //           <a class="btn btn-primary ml-5 mt-3" href={card.repo} role="button">GitHub</a>
       
     //       </div>
     //     )
