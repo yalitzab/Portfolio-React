@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/yalitza-portfolio/static/css/main.f0f7601c.chunk.css",
+    "main.js": "/yalitza-portfolio/static/js/main.64b54e81.chunk.js",
+    "main.js.map": "/yalitza-portfolio/static/js/main.64b54e81.chunk.js.map",
+    "runtime-main.js": "/yalitza-portfolio/static/js/runtime-main.589d7e77.js",
+    "runtime-main.js.map": "/yalitza-portfolio/static/js/runtime-main.589d7e77.js.map",
+    "static/js/2.e138112e.chunk.js": "/yalitza-portfolio/static/js/2.e138112e.chunk.js",
+    "static/js/2.e138112e.chunk.js.map": "/yalitza-portfolio/static/js/2.e138112e.chunk.js.map",
+    "index.html": "/yalitza-portfolio/index.html",
+    "static/css/main.f0f7601c.chunk.css.map": "/yalitza-portfolio/static/css/main.f0f7601c.chunk.css.map",
+    "static/js/2.e138112e.chunk.js.LICENSE.txt": "/yalitza-portfolio/static/js/2.e138112e.chunk.js.LICENSE.txt",
+    "static/media/air-hiker.jpg": "/yalitza-portfolio/static/media/air-hiker.0d484d36.jpg",
+    "static/media/bossy-bartender.jpg": "/yalitza-portfolio/static/media/bossy-bartender.d06ef083.jpg",
+    "static/media/budget-tracker.jpg": "/yalitza-portfolio/static/media/budget-tracker.6559745e.jpg",
+    "static/media/cover-image.b58f8f35.jpg": "/yalitza-portfolio/static/media/cover-image.b58f8f35.jpg",
+    "static/media/coverimage.jpg": "/yalitza-portfolio/static/media/coverimage.808b3af8.jpg",
+    "static/media/daily-note.jpg": "/yalitza-portfolio/static/media/daily-note.37482b74.jpg",
+    "static/media/ke-together.jpg": "/yalitza-portfolio/static/media/ke-together.65267f9a.jpg",
+    "static/media/note-taker.jpg": "/yalitza-portfolio/static/media/note-taker.3dd16f32.jpg",
+    "static/media/portfolio-css.jpg": "/yalitza-portfolio/static/media/portfolio-css.a5faf421.jpg",
+    "static/media/readme-gen.jpg": "/yalitza-portfolio/static/media/readme-gen.aa2c5812.jpg",
+    "static/media/run-buddy.jpg": "/yalitza-portfolio/static/media/run-buddy.a893c067.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.589d7e77.js",
+    "static/js/2.e138112e.chunk.js",
+    "static/css/main.f0f7601c.chunk.css",
+    "static/js/main.64b54e81.chunk.js"
+  ]
+}
